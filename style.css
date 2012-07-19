@@ -1,0 +1,28 @@
+ html { height: 100% }
+  body { height: 100%; margin: 0; padding: 0;font-family: 'Ubuntu',Verdana,Arial,sans-serif;font-size: .9em; }
+  #map{ height: 100% }  #legend{
+      background-color:white;
+      border-style:solid;
+  border-width:2px;
+  z-index:11;
+  position: absolute;
+  bottom:20px;
+  left: 15px;
+  padding-left:10px;
+  padding-right:10px;
+  }
+  #legend ul 
+  {
+      list-type:circle;
+      margin:0;
+      padding-left:1em;
+      paddding-top:0;}
+  .green{
+      list-style-image:url(img/green.png);
+  }
+  .red{
+  list-style-image:url(img/red.png);
+  }
+  .blue{
+  list-style-image:url(img/blue.png);
+  }
